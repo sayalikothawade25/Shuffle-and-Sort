@@ -1,0 +1,149 @@
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+    background: #efefef;
+}
+header {
+    border: 1px solid #fff;
+}
+.line {
+    background: #333;
+    height: 5px;
+}
+h1 {
+    text-align: center;
+    font-weight: 100;
+    color: #333;
+}
+aside {
+    float: right;
+}
+section {
+	width: 70%;
+    display: inline-block;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    list-style: none;
+    padding: 25px 85px;
+    margin: 0px -2px;
+    font-size: 85px;
+    display: inline-block;
+    color: #fff;
+    font-weight: 100;
+}
+.list-3,
+.list-5,
+.list-9 {
+    background: #2f454e;
+}
+.list-2,
+.list-4 {
+    background: #2b8ead;
+}
+.list-1,
+.list-8 {
+    background: #6f98a8;
+}
+.list-6,
+.list-7 {
+    background: #bfbfbf;
+}
+.btn {
+    display: block;
+    width: 250px;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 15px 50px;
+    margin: 25px 22px 0 10px;
+    border: 1px solid #c4c4c4;
+	background: #72c3dc;
+    color: #fff;
+    border: 1px solid #2b8ead;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 5px 0px #2b8ead;
+    -moz-box-shadow: 0px 5px 0px #2b8ead;
+    -ms-box-shadow: 0px 5px 0px #2b8ead;
+    -o-box-shadow: 0px 5px 0px #2b8ead;
+    box-shadow: 0px 5px 0px #2b8ead;
+    text-shadow: 1px 1px 1px #2b8ead;
+    font-weight: 100;
+}
+footer {
+    font-size: 20px;
+    text-align: center;
+    color: #333;
+    padding: 5px;
+}
+
+@media screen and (min-width: 360px) and (max-width: 1000px) {
+    .wrapper {
+        background: none;
+        width: 100%;
+    }
+    aside {
+        margin: 20px 10px;
+		text-align: center;
+		float: none;
+    }
+	section {
+		width: 100%;
+	}
+    header {
+        background: #333;
+        color: #fff;
+    }
+    h1 {
+        color: #fff;
+        height: 40px;
+    }
+    .btn {
+        padding: 15px 25px;
+        display: inline-block;
+        margin: 10px;
+        width: 135px;
+    }
+    ul li {
+        list-style: none;
+        padding: 20px 40px;
+        display: block;
+        margin: 0;
+        color: #333;
+        font-size: 50px;
+        text-align: center;
+    }
+    .list-1,
+    .list-2,
+    .list-3,
+    .list-4,
+    .list-5,
+    .list-6,
+    .list-7,
+    .list-8,
+    .list-9 {
+        background: #efefef;
+        margin-bottom: 10px;
+    }
+    .list-3,
+    .list-5,
+    .list-9 {
+        border-left: 20px solid #2f454e;
+    }
+    .list-2,
+    .list-4 {
+        border-left: 20px solid #2b8ead;
+    }
+    .list-1,
+    .list-8 {
+        border-left: 20px solid #6f98a8;
+    }
+    .list-6,
+    .list-7 {
+        border-left: 0.3em solid #bfbfbf;
+    }
+}
+  
